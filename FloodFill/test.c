@@ -6,14 +6,13 @@
 /*   By: polmarti <polmarti@student.42barcel>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/07 11:50:39 by polmarti          #+#    #+#             */
-/*   Updated: 2023/11/07 11:51:16 by polmarti         ###   ########.fr       */
+/*   Updated: 2023/11/07 13:10:39 by polmarti         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <stdlib.h>
 #include <stdio.h>
-#include "flood_fill.h"
-
+#include "floodfill.c"
 char** make_area(char** zone, t_point size)
 {
 	char** new;
