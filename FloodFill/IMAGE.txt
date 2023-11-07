@@ -1,0 +1,29 @@
+        
+     Matriz de 2 dimensiones (char **tab)
+
+
+
+			"1 1 1 1 1 1 1 1", y = 0
+
+			"1 0 0 0 1 0 0 1", y = 1
+
+			"1 0 0 1 0 0 0 1", y = 2
+
+			"1 0 1 1 0 0 0 1", y = 3
+
+			"1 1 1 0 0 0 0 1", y = 4
+             
+POSICION-> 	 0 1 2 3 4 5 6 7 =  x 
+
+
+
+Ya recibes la matriz, y tu funcion debe mapear (recorrer los 1 de la matriz y substituirlos por el caracter 'F')
+Prototipo de la funcion: void	floodfill(char **tab, t_point size, t_point begin);
+										  
+										  Matriz      Tamano        Punto inicio
+
+La solucion plantea una funcion auxiliar recursiva:
+
+		void	fill(char **tab, t_point size, to_point cur, char to_fill);
+
+		             Matriz,     Tamano,       ?????        caracter inci
